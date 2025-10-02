@@ -4,7 +4,7 @@
 class Controller {
     private $model;
     
-    public function __construct ($model){ //le constructeur recoit un objet Model et le stocke dans $this->move_uploaded_file
+    public function __construct ($model){ //le constructeur recoit un objet Model et le stocke dans $this->model
         $this->model = $model;              // cela permet au controleur pour d'acceder au message du modele 
     }
 
